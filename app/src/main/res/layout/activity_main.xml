@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_height="match_parent"
+android:layout_width="match_parent"
+    android:background="#055803"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+<ImageView
+android:id="@+id/imageViewOne"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:src="@drawable/lotto"
+/>
+
+<TextView
+
+android:id="@+id/textView"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:textSize="30sp"
+android:textColor="#FFFFFF"
+android:background="#66bb6a"
+android:layout_below="@id/imageViewOne"
+    android:gravity="center"
+    />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:text="Generate Number"/>
+
+
+
+</RelativeLayout>
+
